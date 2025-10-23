@@ -29,7 +29,7 @@ A dynamic multi-list todo application built with Node.js, Express, MongoDB, and 
 1. Clone the repository
 2. Install dependencies: `npm install`
 3. Start MongoDB service
-4. Run the app: `node app.js`
+4. Run the app: `node main.js`
 5. Visit `http://localhost:3000`
 
 The app automatically initializes with today's list and allows instant creation of new lists through URL navigation.
