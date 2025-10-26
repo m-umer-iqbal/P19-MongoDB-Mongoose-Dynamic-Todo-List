@@ -8,7 +8,7 @@ import _ from "lodash";
 const app = express()
 const port = 3000
 
-const connect = await mongoose.connect("mongodb://localhost:27017/todoListDB")
+const connect = await mongoose.connect("mongodb://localhost:27017/toDoListDB")
 app.set('view engine', 'ejs');
 
 app.use(bodyParser.urlencoded({ extended: true }))
